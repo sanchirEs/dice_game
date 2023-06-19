@@ -56,7 +56,7 @@ if ( isItOver ) {
     })
     isItOver = false;
 } else {
-        
+         
 
     document.querySelector(".btn-roll").addEventListener("click", function(){
         diceNumber = Math.floor( Math.random() * 6 ) + 1;
